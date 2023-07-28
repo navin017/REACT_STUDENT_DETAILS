@@ -1,0 +1,42 @@
+
+  // const fetchUserData = () => {
+  //   fetch("http://localhost:8000/get-students",{
+  //     mode: 'no-cors'
+  //   })
+  //     .then(response => {
+  //       return response.json()
+  //     })
+  //        .then((students) => {
+  //       const modifiedData = students.map((item)=>({
+  //         id: `${item.student_id}-${item.marks_id}`,
+  //         name: item.first_name,
+  //       }))
+  //       setStudents(modifiedData)
+  //       console.log(students,"....")
+  //     })
+  // }
+  // console.log(students, "++++++++")
+  // useEffect(() => {
+  //   fetchUserData()
+  // }, [])
+
+  // const fetchUserData = () => {
+  //   fetch("http://localhost:8000/get-students",{
+  //     mode: 'no-cors'
+  //   })
+  //     .then(response => {
+  //       return response.json()
+  //     })
+  //     .then((data) => {
+  //       const modifiedData = data.map((item)=>({
+  //         id: `${item.id}-${item.ID}`,
+  //         name: item.first_name,
+  //       }))
+  //       setStudents(modifiedData)
+  //       console.log(students,"....")
+  //     })
+  //     .catch((error)=>console.log("-----------",error))
+  //   }
+  // useEffect(() => {
+  //   fetchUserData()
+  // }, [])
